@@ -162,3 +162,22 @@ footer {
     text-align: left;
     padding-left: 20px;
 }
+
+
+@media only screen and (max-width: 960) {
+    .main {
+       padding-top: 0;
+    }
+  }
+  
+@media only screen and (max-width: 700) {
+    .supporting img {
+      display: none;
+    }
+  }
+  
+@media only screen and (max-width: 470) {
+    .rating h1 {
+      font-size: 2rem;
+    }
+}
